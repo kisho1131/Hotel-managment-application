@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactComponent } from './contact/contact.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -17,7 +18,8 @@ import { ContactComponent } from './contact/contact.component';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    ContactComponent
+    ContactComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
