@@ -10,13 +10,17 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
